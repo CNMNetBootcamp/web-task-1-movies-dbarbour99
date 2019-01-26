@@ -1,0 +1,4 @@
+
+You're right here in the project
+
+https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/working-with-sql?view=aspnetcore-2.2&tabs=visual-studio
