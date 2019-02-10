@@ -39,6 +39,7 @@ namespace MvcMovie.Controllers
         movies = movies.Where(x => x.Genre == movieGenre);
       }
 
+      //TODO: Recheck the ViewModel. I am getting an expeption
       var movieGenreVM = new MovieGenreViewModel
       {
         Genres = new SelectList(await genreQuery.Distinct().ToListAsync()),
